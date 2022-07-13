@@ -20,7 +20,7 @@ program
 program
     .on('--help', () => {
         // 新增说明信息
-        console.log(`\r\nRun ${chalk.cyan(`zr <command> --help`)} for detailed usage of given command\r\n`)
+        console.log(`\r\nRun ${chalk.cyan(` <command> --help`)} for detailed usage of given command\r\n`)
     })
 
 program

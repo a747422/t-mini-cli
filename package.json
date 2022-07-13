@@ -1,16 +1,20 @@
 {
-  "name": "mini-cli",
-  "version": "0.0.1",
+  "name": "t-mini-cli",
+  "version": "0.0.3",
   "description": "",
   "main": "/bin/cli.js",
-  "bin": "/bin/cli.js",
+  "bin": {
+    "mini-cli": "/bin/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "mini-cli create"
   },
   "keywords": [],
-  "author": "",
+  "author": "leila233",
   "license": "ISC",
   "devDependencies": {
+    "chalk": "^4.1.2",
     "ejs": "^3.1.8",
     "inquirer": "^8.2.4"
   },

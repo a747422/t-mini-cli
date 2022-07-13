@@ -1,16 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import {  View } from '@ray-js/components';
+import styles from './index.module.less';
+import { Props } from './index.type';
 
-const  <%= name %> = props => {
-    return (
-        <div>
+const <%= name %>: React.FC<Props> = props => {
 
-        </div>
-    );
-};
-
-<%= name %>.propTypes = {
-
+  return (
+      <View className={styles.container}></View>
+  );
 };
 
 export default <%= name %>;
